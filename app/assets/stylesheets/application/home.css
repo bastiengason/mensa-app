@@ -1,0 +1,20 @@
+.left {
+  height: 100vh;
+  width: 50%;
+  float: left;
+  background-color: #AD482A;
+}
+
+.right {
+  height: 100vh;
+  width: 50%;
+  float: right;
+  background: #FFD76A;
+}
+
+.main-title {
+  width: 100%;
+  text-align: center;
+  font-weight: normal;
+  color: #FFD76A;
+}

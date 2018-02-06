@@ -13,3 +13,10 @@
  *= require_tree .
  *= require_self
  */
+
+@import 'application/home';
+
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue';
+}
