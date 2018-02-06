@@ -1,8 +1,11 @@
 .left {
   height: 100vh;
   width: 50%;
+  background: image-url('left-bgc.svg') no-repeat center;
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */
   float: left;
-  background-color: #2A61AD;
+/*  background-color: #76E4FD;*/
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -12,9 +15,12 @@
 .right {
   height: 100vh;
   width: 50%;
+  background: image-url('right-bgc.svg') no-repeat center;
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */
   float: right;
-  background: #FFD76A;
-  color: #2A61AD;
+/*  background: #BAF1FE;*/
+  color: #40589B;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -23,13 +29,24 @@
 
 .right h2 {
   margin-bottom: 30px;
+  margin-top: 0;
+}
+
+.logo {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  font-size: 35px;
+  font-weight: 500;
+  color: white;
+  font-family: 'Josefin Sans';
 }
 
 .main-title {
-  font-size: 45px;
+  font-size: 40px;
   text-align: center;
   font-weight: normal;
-  color: #FFD76A;
+  color: white;
   margin-left: 70px;
   margin-right: 70px;
   line-height: 1.3;
@@ -55,12 +72,46 @@
   font-family: 'Josefin Sans';
   color: white;
   font-weight: 500;
-  background-color: #2A61AD;
+  background-color: #40589B;
   border: none;
   border-radius: 2px;
   font-size: 16px;
   letter-spacing: 1px;
   padding-top: 5px;
   cursor: pointer;
-  outline-color: #2A61AD;
+  outline-color: #40589B;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
