@@ -26,13 +26,13 @@
 }
 
 .main-title {
-  height: 50px;
   font-size: 45px;
   text-align: center;
   font-weight: normal;
   color: #FFD76A;
   margin-left: 70px;
   margin-right: 70px;
+  line-height: 1.3;
 }
 
 .login-input {
@@ -46,7 +46,6 @@
   border: none;
   border-radius: 2px;
   outline-color: #2A61AD;
-  outline:
 }
 
 .btn-primary {
