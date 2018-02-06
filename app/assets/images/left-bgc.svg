@@ -1,0 +1,54 @@
+<svg id="Groupe_2" data-name="Groupe 2" xmlns="http://www.w3.org/2000/svg" viewBox="-0.7 0 640.7 800">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #76e4fd;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        opacity: 0.13;
+      }
+
+      .cls-3 {
+        opacity: 0.098;
+      }
+
+      .cls-4 {
+        opacity: 0.107;
+      }
+
+      .cls-5 {
+        opacity: 0.103;
+      }
+
+      .cls-6 {
+        opacity: 0.169;
+      }
+
+      .cls-7 {
+        opacity: 0.078;
+      }
+
+      .cls-8 {
+        opacity: 0.115;
+      }
+
+      .cls-9 {
+        opacity: 0.187;
+      }
+    </style>
+  </defs>
+  <rect id="Rectangle_1" data-name="Rectangle 1" class="cls-1" width="640" height="800"/>
+  <rect id="Rectangle_3" data-name="Rectangle 3" class="cls-2" width="205.076" height="205.076" transform="matrix(0.966, -0.259, 0.259, 0.966, 349.876, 61.226)"/>
+  <rect id="Rectangle_8" data-name="Rectangle 8" class="cls-3" width="29.076" height="29.076" transform="translate(69.943 384.557)"/>
+  <path id="Soustraction_3" data-name="Soustraction 3" class="cls-4" d="M67.552,148.347H0v-.169C0,66.472,66.472,0,148.178,0S296.355,66.472,296.355,148.178v.168H228.8v-.169a80.626,80.626,0,1,0-161.251,0v.169Z" transform="translate(147.647 22.535) rotate(90)"/>
+  <path id="Soustraction_9" data-name="Soustraction 9" class="cls-5" d="M68.582,76.347H29L78.585,0l27.837,18.078Z" transform="translate(40.943 723.211)"/>
+  <path id="Soustraction_1" data-name="Soustraction 1" class="cls-6" d="M89.046,178.093a89.046,89.046,0,1,1,89.046-89.046A89.147,89.147,0,0,1,89.046,178.093Zm0-137.5A48.452,48.452,0,1,0,137.5,89.046,48.506,48.506,0,0,0,89.046,40.595Z" transform="translate(441.676 604.907)"/>
+  <path id="Soustraction_5" data-name="Soustraction 5" class="cls-7" d="M18.679,41.019H0v-.047a40.972,40.972,0,1,1,81.945,0v.047H63.266v-.047a22.294,22.294,0,1,0-44.588,0v.047Z" transform="translate(394.435 578.949) rotate(69)"/>
+  <path id="Tracé_2" data-name="Tracé 2" class="cls-8" d="M279.386,0V279.386H0Z" transform="matrix(0.899, 0.438, -0.438, 0.899, 147.733, 318.89)"/>
+  <path id="Tracé_3" data-name="Tracé 3" class="cls-9" d="M53.308,0V53.308H0Z" transform="matrix(-0.875, 0.485, -0.485, -0.875, 572.722, 458.679)"/>
+</svg>
