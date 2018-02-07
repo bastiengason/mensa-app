@@ -1,26 +1,42 @@
-<svg id="Groupe_1" data-name="Groupe 1" xmlns="http://www.w3.org/2000/svg" viewBox="640 -1.3 640 801.3">
+<svg id="Groupe_1" data-name="Groupe 1" xmlns="http://www.w3.org/2000/svg" viewBox="640 -0.374 640 800.374">
   <defs>
     <style>
       .cls-1 {
         fill: #baf1fe;
       }
 
-      .cls-2 {
+      .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
         fill: #76e4fd;
-        opacity: 0.242;
+      }
+
+      .cls-2 {
+        opacity: 0.097;
+      }
+
+      .cls-3 {
+        opacity: 0.259;
+      }
+
+      .cls-4 {
+        opacity: 0.178;
+      }
+
+      .cls-5 {
+        opacity: 0.107;
+      }
+
+      .cls-6 {
+        opacity: 0.091;
       }
     </style>
   </defs>
   <rect id="Rectangle_2" data-name="Rectangle 2" class="cls-1" width="640" height="800" transform="translate(640)"/>
-  <rect id="Rectangle_11" data-name="Rectangle 11" class="cls-2" width="55.076" height="55.076" transform="matrix(-0.966, -0.259, 0.259, -0.966, 704.863, 684.232)"/>
-  <rect id="Rectangle_12" data-name="Rectangle 12" class="cls-2" width="15.076" height="15.076" transform="matrix(-0.966, -0.259, 0.259, -0.966, 1147.92, 518.248)"/>
-  <path id="Soustraction_11" data-name="Soustraction 11" class="cls-2" d="M30.641,67.29H0v-.077a67.213,67.213,0,1,1,134.426,0v.076H103.784v-.077a36.572,36.572,0,1,0-73.143,0v.077Z" transform="translate(1094.587 747.067) rotate(-75)"/>
-  <path id="Soustraction_12" data-name="Soustraction 12" class="cls-2" d="M56.193,52.448H29L63.065,0,82.188,12.419Z" transform="translate(1264.971 52.682) rotate(-180)"/>
-  <rect id="Rectangle_16" data-name="Rectangle 16" class="cls-2" width="80.502" height="13.802" transform="translate(847.628 791.273) rotate(-87)"/>
-  <path id="Soustraction_13" data-name="Soustraction 13" class="cls-2" d="M41.481,82.962A41.481,41.481,0,1,1,82.962,41.481,41.528,41.528,0,0,1,41.481,82.962Zm0-64.052A22.571,22.571,0,1,0,64.052,41.481,22.6,22.6,0,0,0,41.481,18.911Z" transform="matrix(-0.966, -0.259, 0.259, -0.966, 792.14, 100.308)"/>
-  <path id="Soustraction_14" data-name="Soustraction 14" class="cls-2" d="M19.393,38.786A19.393,19.393,0,1,1,38.786,19.393,19.415,19.415,0,0,1,19.393,38.786Zm0-29.945A10.552,10.552,0,1,0,29.945,19.393,10.564,10.564,0,0,0,19.393,8.841Z" transform="matrix(-0.966, -0.259, 0.259, -0.966, 752.357, 505.406)"/>
-  <path id="Soustraction_16" data-name="Soustraction 16" class="cls-2" d="M18.679,41.019H0v-.047a40.972,40.972,0,1,1,81.945,0v.047H63.266v-.047a22.294,22.294,0,1,0-44.588,0v.047Z" transform="translate(907.822 276.476) rotate(-96)"/>
-  <path id="Soustraction_18" data-name="Soustraction 18" class="cls-2" d="M13.366,29.351H0v-.033a29.318,29.318,0,1,1,58.635,0v.033H45.27v-.033a15.952,15.952,0,1,0-31.9,0v.033Z" transform="matrix(-0.731, 0.682, -0.682, -0.731, 1063.18, 589.453)"/>
-  <path id="Tracé_4" data-name="Tracé 4" class="cls-2" d="M70.945,0V70.945H0Z" transform="translate(1206.057 407.855) rotate(-139)"/>
-  <path id="Tracé_5" data-name="Tracé 5" class="cls-2" d="M53.308,0V53.308H0Z" transform="translate(694.979 320.147) rotate(-14)"/>
+  <path id="Soustraction_12" data-name="Soustraction 12" class="cls-2" d="M126.371,252.743A126.371,126.371,0,1,1,252.743,126.371,126.514,126.514,0,0,1,126.371,252.743Zm0-195.132a68.761,68.761,0,1,0,68.761,68.761A68.839,68.839,0,0,0,126.371,57.611Z" transform="translate(783.061 85.293)"/>
+  <path id="Soustraction_16" data-name="Soustraction 16" class="cls-3" d="M67.552,148.347H0v-.169C0,66.472,66.472,0,148.178,0S296.355,66.472,296.355,148.178v.168H228.8v-.169a80.626,80.626,0,1,0-161.251,0v.169Z" transform="translate(952.296 651.539)"/>
+  <path id="Tracé_4" data-name="Tracé 4" class="cls-3" d="M92.618,0V92.618H0Z" transform="matrix(-0.545, 0.839, -0.839, -0.545, 843.51, 310.147)"/>
+  <path id="Soustraction_18" data-name="Soustraction 18" class="cls-4" d="M174.626,233.221h0L0,217.942,18.193,10H174.626V233.22Z" transform="translate(1105.374 -10)"/>
+  <path id="Soustraction_17" data-name="Soustraction 17" class="cls-5" d="M110.58,157.363H29L131.2,0l57.377,37.262Z" transform="translate(1122.467 673.098) rotate(-90)"/>
+  <path id="Soustraction_19" data-name="Soustraction 19" class="cls-5" d="M110.58,157.363H29L131.2,0l57.377,37.262Z" transform="translate(828.939 156.989) rotate(180)"/>
+  <path id="Soustraction_14" data-name="Soustraction 14" class="cls-6" d="M27.928,61.33H0v-.07a61.26,61.26,0,1,1,122.52,0v.07H94.593v-.07a33.333,33.333,0,1,0-66.665,0v.07Z" transform="translate(715.383 583.259) rotate(-16)"/>
+  <rect id="Rectangle_19" data-name="Rectangle 19" class="cls-3" width="29.076" height="29.076" transform="translate(719.943 499.557)"/>
 </svg>
