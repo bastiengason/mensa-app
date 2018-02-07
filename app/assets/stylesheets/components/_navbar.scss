@@ -38,6 +38,14 @@
   }
 }
 
+.nav-item-selected {
+  opacity: 1;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: $gray-black-light;
+  border-left: 4px $brand-blue solid;
+}
+
 .logo-area{
   height: 7.5vh;
   width: 100%;

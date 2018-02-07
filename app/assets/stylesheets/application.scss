@@ -9,11 +9,16 @@
 
 // Components
 @import "components/navbar";
+@import "components/cards";
+
+// Pages
+@import "pages/dashboard";
 
 
 body {
   margin: 0;
   font-family: 'Josefin Sans', sans-serif;
+  background-color: #F6F6F6;
 }
 
 * {  box-sizing: border-box;}
