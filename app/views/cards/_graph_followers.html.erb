@@ -1,46 +1,71 @@
 <div class="card-primary card-lg">
-  <canvas id="myChart" width="400" height="400"></canvas>
+  <canvas id="myLineChart" height="300" width="800"></canvas>
 </div>
-<div class="card-primary card-sm"></div>
-<div class="card-primary card-md"></div>
 
+<div class="card-primary card-md">
+  <canvas id="myLineChart2" height="300" width="300"></canvas>
+</div>
+
+<div class="card-primary card-md">
+  <canvas id="myLineChart3" height="300" width="300"></canvas>
+</div>
 
 <script>
-  var ctx = document.getElementById("myChart").getContext('2d');
-  var myChart = new Chart(ctx, {
-      type: 'bar',
+  var ctx = document.getElementById("myLineChart").getContext('2d');
+  var myLineChart = new Chart(ctx, {
+      // The type of chart we want to create
+      type: 'line',
+
+      // The data for our dataset
       data: {
-          labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
+          labels: ["January", "February", "March", "April", "May", "June", "July"],
           datasets: [{
-              label: '# of Votes',
-              data: [12, 19, 3, 5, 2, 3],
-              backgroundColor: [
-                  'rgba(255, 99, 132, 0.2)',
-                  'rgba(54, 162, 235, 0.2)',
-                  'rgba(255, 206, 86, 0.2)',
-                  'rgba(75, 192, 192, 0.2)',
-                  'rgba(153, 102, 255, 0.2)',
-                  'rgba(255, 159, 64, 0.2)'
-              ],
-              borderColor: [
-                  'rgba(255,99,132,1)',
-                  'rgba(54, 162, 235, 1)',
-                  'rgba(255, 206, 86, 1)',
-                  'rgba(75, 192, 192, 1)',
-                  'rgba(153, 102, 255, 1)',
-                  'rgba(255, 159, 64, 1)'
-              ],
-              borderWidth: 1
+              label: "My First dataset",
+              backgroundColor: 'rgba(118, 228, 253, 0.5)',
+              borderColor: 'RGB(118, 228, 253)',
+              data: [255, 343, 444, 356, 784, 564, 938],
           }]
       },
-      options: {
-          scales: {
-              yAxes: [{
-                  ticks: {
-                      beginAtZero:true
-                  }
-              }]
-          }
-      }
+
+      // Configuration options go here
+      options: {}
+  });
+
+  var myLineChart2 = new Chart(ctx, {
+      // The type of chart we want to create
+      type: 'line',
+
+      // The data for our dataset
+      data: {
+          labels: ["January", "February", "March", "April", "May", "June", "July"],
+          datasets: [{
+              label: "My First dataset",
+              backgroundColor: 'rgba(118, 228, 253, 0.5)',
+              borderColor: 'RGB(118, 228, 253)',
+              data: [255, 343, 444, 356, 784, 564, 938],
+          }]
+      },
+
+      // Configuration options go here
+      options: {}
+  });
+
+  var myLineChart3 = new Chart(ctx, {
+      // The type of chart we want to create
+      type: 'line',
+
+      // The data for our dataset
+      data: {
+          labels: ["January", "February", "March", "April", "May", "June", "July"],
+          datasets: [{
+              label: "My First dataset",
+              backgroundColor: 'rgba(118, 228, 253, 0.5)',
+              borderColor: 'RGB(118, 228, 253)',
+              data: [255, 343, 444, 356, 784, 564, 938],
+          }]
+      },
+
+      // Configuration options go here
+      options: {}
   });
 </script>

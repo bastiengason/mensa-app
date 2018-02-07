@@ -19,3 +19,4 @@
 import Chart from 'chart.js';
 
 var myChart = new Chart(ctx, {...});
+var myLineChart = new Chart(ctx, {...});
