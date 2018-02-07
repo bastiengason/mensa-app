@@ -1,11 +1,11 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-// Application
-@import "application/home";
-
 // Config
 @import "config/variables";
+
+// Application
+@import "application/home";
 
 // Components
 @import "components/navbar";
