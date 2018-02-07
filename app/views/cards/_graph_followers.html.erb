@@ -3,7 +3,7 @@
 </div>
 
 <div class="card-primary card-md">
-  <canvas id="myLineChart2" height="300" width="300"></canvas>
+  <canvas id="canvas1" height="300" width="300"></canvas>
 </div>
 
 <div class="card-primary card-md">
@@ -30,42 +30,55 @@
       // Configuration options go here
       options: {}
   });
+</script>
 
-  var myLineChart2 = new Chart(ctx, {
-      // The type of chart we want to create
-      type: 'line',
+<script>
 
-      // The data for our dataset
-      data: {
-          labels: ["January", "February", "March", "April", "May", "June", "July"],
-          datasets: [{
-              label: "My First dataset",
-              backgroundColor: 'rgba(118, 228, 253, 0.5)',
-              borderColor: 'RGB(118, 228, 253)',
-              data: [255, 343, 444, 356, 784, 564, 938],
-          }]
-      },
+  var MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+    var color = Chart.helpers.color;
+    var horizontalBarChartData = {
+      labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+      datasets: [{
+        label: 'Dataset 1',
+        backgroundColor: color(window.chartColors.red).alpha(0.5).rgbString(),
+        borderColor: window.chartColors.red,
+        borderWidth: 1,
+        data: [
+          100, 100, 100, 100, 100, 100, 100
+        ]
+      }, {
+        label: 'Dataset 2',
+        backgroundColor: color(window.chartColors.blue).alpha(0.5).rgbString(),
+        borderColor: window.chartColors.blue,
+        data: [
+          100, 100, 100, 100, 100, 100, 100
+        ]
+      }]
+    };
 
-      // Configuration options go here
-      options: {}
-  });
+    window.onload = function() {
+      var ctx = document.getElementById('canvas1').getContext('2d');
+      window.myHorizontalBar = new Chart(ctx, {
+        type: 'horizontalBar',
+        data: horizontalBarChartData,
+        options: {
+          // Elements options apply to all of the options unless overridden in a dataset
+          // In this case, we are setting the border of each horizontal bar to be 2px wide
+          elements: {
+            rectangle: {
+              borderWidth: 2,
+            }
+          },
+          responsive: true,
+          legend: {
+            position: 'right',
+          },
+          title: {
+            display: true,
+            text: 'Chart.js Horizontal Bar Chart'
+          }
+        }
+      });
+    };
 
-  var myLineChart3 = new Chart(ctx, {
-      // The type of chart we want to create
-      type: 'line',
-
-      // The data for our dataset
-      data: {
-          labels: ["January", "February", "March", "April", "May", "June", "July"],
-          datasets: [{
-              label: "My First dataset",
-              backgroundColor: 'rgba(118, 228, 253, 0.5)',
-              borderColor: 'RGB(118, 228, 253)',
-              data: [255, 343, 444, 356, 784, 564, 938],
-          }]
-      },
-
-      // Configuration options go here
-      options: {}
-  });
 </script>
