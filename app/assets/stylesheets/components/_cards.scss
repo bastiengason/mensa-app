@@ -1,0 +1,23 @@
+.card-primary {
+  background-color: white;
+  margin-bottom: 50px;
+  -webkit-box-shadow: 0px 0px 25px -4px rgba(179,179,179,0.6);
+  -moz-box-shadow: 0px 0px 25px -4px rgba(179,179,179,0.6);
+  box-shadow: 0px 0px 25px -4px rgba(179,179,179,0.6);
+  min-height: 450px;
+  border-radius: 5px;
+}
+
+.card-xs {
+  width: 17%;
+}
+.card-sm {
+  width: 30%;
+}
+.card-md {
+  width: 47%;
+}
+
+.card-lg {
+  width: 100%;
+}

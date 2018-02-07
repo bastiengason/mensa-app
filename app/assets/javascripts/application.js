@@ -15,3 +15,8 @@
 //= require turbolinks
 //= require bootstrap-sprockets
 //= require_tree .
+
+import Chart from 'chart.js';
+
+var myChart = new Chart(ctx, {...});
+var myLineChart = new Chart(ctx, {...});

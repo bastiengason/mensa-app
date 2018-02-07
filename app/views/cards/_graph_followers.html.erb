@@ -1,0 +1,71 @@
+<div class="card-primary card-lg">
+  <canvas id="myLineChart" height="300" width="800"></canvas>
+</div>
+
+<div class="card-primary card-md">
+  <canvas id="myLineChart2" height="300" width="300"></canvas>
+</div>
+
+<div class="card-primary card-md">
+  <canvas id="myLineChart3" height="300" width="300"></canvas>
+</div>
+
+<script>
+  var ctx = document.getElementById("myLineChart").getContext('2d');
+  var myLineChart = new Chart(ctx, {
+      // The type of chart we want to create
+      type: 'line',
+
+      // The data for our dataset
+      data: {
+          labels: ["January", "February", "March", "April", "May", "June", "July"],
+          datasets: [{
+              label: "My First dataset",
+              backgroundColor: 'rgba(118, 228, 253, 0.5)',
+              borderColor: 'RGB(118, 228, 253)',
+              data: [255, 343, 444, 356, 784, 564, 938],
+          }]
+      },
+
+      // Configuration options go here
+      options: {}
+  });
+
+  var myLineChart2 = new Chart(ctx, {
+      // The type of chart we want to create
+      type: 'line',
+
+      // The data for our dataset
+      data: {
+          labels: ["January", "February", "March", "April", "May", "June", "July"],
+          datasets: [{
+              label: "My First dataset",
+              backgroundColor: 'rgba(118, 228, 253, 0.5)',
+              borderColor: 'RGB(118, 228, 253)',
+              data: [255, 343, 444, 356, 784, 564, 938],
+          }]
+      },
+
+      // Configuration options go here
+      options: {}
+  });
+
+  var myLineChart3 = new Chart(ctx, {
+      // The type of chart we want to create
+      type: 'line',
+
+      // The data for our dataset
+      data: {
+          labels: ["January", "February", "March", "April", "May", "June", "July"],
+          datasets: [{
+              label: "My First dataset",
+              backgroundColor: 'rgba(118, 228, 253, 0.5)',
+              borderColor: 'RGB(118, 228, 253)',
+              data: [255, 343, 444, 356, 784, 564, 938],
+          }]
+      },
+
+      // Configuration options go here
+      options: {}
+  });
+</script>
